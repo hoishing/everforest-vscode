@@ -1,58 +1,58 @@
 > [!IMPORTANT]  
-> Since vscode is not my daily editor and lack of time, this repo is no longer maintained. Welcome to fork this repo and publish a new extension to marketplace.
+> This is a hard fork of https://github.com/sainnhe/everforest-vscode due to the original repository is no longer maintained.
 
 ---
 
 <h1 align="center">
-𝐄𝐯𝐞𝐫𝐟𝐨𝐫𝐞𝐬𝐭
+Everforest
 </h1>
 
 <h2 align="center">
-𝐃𝐚𝐫𝐤 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
+Dark Hard Flat
 </h2>
 
 ![dark-hard-flat](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-dark-hard-flat.png)
 
 <h2 align="center">
-𝐃𝐚𝐫𝐤 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
+Dark Medium Material
 </h2>
 
 ![dark-medium-material](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-dark-medium-material.png)
 
 <h2 align="center">
-𝐃𝐚𝐫𝐤 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
+Dark Soft High Contrast
 </h2>
 
 ![dark-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-dark-soft-high-contrast.png)
 
 <h2 align="center">
-𝐋𝐢𝐠𝐡𝐭 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
+Light Hard Flat
 </h2>
 
 ![light-hard-flat](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-light-hard-flat.png)
 
 <h2 align="center">
-𝐋𝐢𝐠𝐡𝐭 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
+Light Medium Material
 </h2>
 
 ![light-medium-material](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-light-medium-material.png)
 
 <h2 align="center">
-𝐋𝐢𝐠𝐡𝐭 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
+Light Soft High Contrast
 </h2>
 
 ![light-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-light-soft-high-contrast.png)
 
 <p align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.everforest" alt="Marketplace">
+    <a href="https://marketplace.visualstudio.com/items?itemName=hoishing.everforest-fork-202603" alt="Marketplace">
         <img src="https://img.shields.io/badge/vscode-marketplace-blue" /></a>
-    <a href="https://open-vsx.org/extension/sainnhe/everforest" alt="Registry">
+    <a href="https://open-vsx.org/extension/hoishing/everforest-fork-202603" alt="Registry">
         <img src="https://img.shields.io/badge/open--vsx-registry-green" /></a>
-    <a href="https://github.com/sainnhe/everforest-vscode" alt="Repository">
+    <a href="https://github.com/hoishing/everforest-vscode" alt="Repository">
         <img src="https://img.shields.io/badge/github-repository-blueviolet" /></a>
-    <a href="https://github.com/sainnhe/everforest-vscode/issues" alt="Issues">
+    <a href="https://github.com/hoishing/everforest-vscode/issues" alt="Issues">
         <img src="https://img.shields.io/badge/issue-feedback-red" /></a>
-    <a href="https://vscode.dev/theme/sainnhe.everforest" alt="Preview">
+    <a href="https://vscode.dev/theme/hoishing.everforest-fork-202603" alt="Preview">
         <img src="https://img.shields.io/badge/preview-vscode.dev-yellow" /></a>
 </p>
 
@@ -142,7 +142,7 @@ The following file types and syntax extensions are basically optimized, but ther
 ## Installation
 
 1. Press extensions icon in your editor.
-2. Search for `sainnhe.everforest`.
+2. Search for `hoishing.everforest-fork-202603`.
 3. Select this extension and press `install` button.
 
 ## Usage
@@ -171,7 +171,7 @@ There are some configuration options available in this theme, you can customize 
 
 ## Related Projects
 
-See this [wiki page](https://github.com/sainnhe/everforest/wiki).
+See this [wiki page](https://github.com/sainnhe/everforest/wiki) (original project).
 
 ### More Color Schemes
 
@@ -192,4 +192,4 @@ See [CONTRIBUTING.md](https://github.com/sainnhe/gruvbox-material-vscode/blob/ma
 
 ## License
 
-[MIT License](https://github.com/sainnhe/everforest-vscode/blob/master/LICENSE)
+[MIT License](https://github.com/hoishing/everforest-vscode/blob/master/LICENSE)

@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Homepage:   https://github.com/sainnhe/everforest-vscode
+ *  Homepage:   https://github.com/hoishing/everforest-vscode
  *  Copyright:  2020 Sainnhe Park <i@sainnhe.dev>
  *  License:    MIT
  *--------------------------------------------------------------------------------------------*/

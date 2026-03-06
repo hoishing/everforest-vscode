@@ -195,11 +195,6 @@
     "package": "vsce package && git checkout -- themes",
     "lint": "eslint . --ext .ts",
     "browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. .",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.ts": "eslint --fix",
-    "*.{js,json,md}": "prettier --write"
   },
   "engines": {
     "vscode": "^1.55.0"
@@ -214,8 +209,6 @@
     "eslint": "8.29.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
-    "husky": "8.0.2",
-    "lint-staged": "13.1.0",
     "prettier": "2.8.1",
     "rimraf": "3.0.2",
     "typescript": "4.9.4"

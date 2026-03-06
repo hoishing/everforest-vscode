@@ -1,0 +1,53 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get version from package.json
+        id: pkg
+        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
+      - name: Check if release exists
+        id: release_check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "v${{ steps.pkg.outputs.version }}" &>/dev/null; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: oven-sh/setup-bun@v2
+        if: steps.release_check.outputs.exists == 'false'
+
+      - name: Install dependencies
+        if: steps.release_check.outputs.exists == 'false'
+        run: bun install
+
+      - name: Build package
+        if: steps.release_check.outputs.exists == 'false'
+        run: bun run package
+
+      - name: Create GitHub release with vsix
+        if: steps.release_check.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${{ steps.pkg.outputs.version }}"
+          VSIX_FILE=$(ls *.vsix)
+          gh release create "v${VERSION}" \
+            --title "v${VERSION}" \
+            --notes "" \
+            "${VSIX_FILE}"

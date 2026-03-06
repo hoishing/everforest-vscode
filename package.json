@@ -194,7 +194,7 @@
     "compile": "bun run clean && bun run compile:ts && bun run compile:themes",
     "package": "vsce package && git checkout -- themes",
     "lint": "eslint . --ext .ts",
-    "browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. .",
+    "browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. ."
   },
   "engines": {
     "vscode": "^1.55.0"
